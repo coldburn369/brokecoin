@@ -1,0 +1,16 @@
+{
+  "redirects": [
+    {
+      "source": "/",
+      "destination": "https://the.broke.one",
+      "permanent": true,
+      "host": "broke.one"
+    },
+    {
+      "source": "/:path*",
+      "destination": "https://the.broke.one/:path*",
+      "permanent": true,
+      "host": "broke.one"
+    }
+  ]
+}
